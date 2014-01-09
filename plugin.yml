@@ -1,0 +1,44 @@
+name: RandomTeleport
+main: Apples.Main
+version: 0.1
+commands:
+   tpw:
+      description: "Teleport To A Different World!"
+      usage: "/tpw <player name> <worldname>"
+      permission: SCTP.tpw
+      permission-message: "I'm sorry to say this.. but... you don't have permission ):"
+   givekill:
+      description: "Give Someone a Kill :P"
+      usage: "/givekill <playername>"
+      permission: SCTP.gk
+      permission-message: "I'm sorry to say this.. but... you don't have permission ):"
+   removekill:
+      description: "Take Away Someone's Kill :P"
+      usage: "/remove <playername>"
+      permission: SCTP.rk
+      permission-message: "I'm sorry to say this.. but... you don't have permission ):"
+   listkills:
+      description: "List every kill"
+      usage: "/listkills"
+      permission: SCTP.lk
+      permission-message: "I'm sorry to say this.. but... you don't have permission ):"
+   addkiller:
+      description: "List every kill"
+      usage: "/addkiller <username>"
+      permission: SCTP.ak
+      permission-message: "I'm sorry to say this.. but... you don't have permission ):"
+   kexist:
+      description: "Does This User Exist?"
+      usage: "/kexist <username>"
+      permission: SCTP.kk
+      permission-message: "I'm sorry to say this.. but... you don't have permission ):"
+   cw:
+      description: "Create a World!"
+      usage: "/cw <world name> <world type>"
+      permission: SCTP.rk
+      permission-message: "I'm sorry to say this.. but... you don't have permission ):"
+   tpp:
+      description: "List every kill"
+      usage: "/tpp <player> <x> <y> <z>"
+      permission: SCTP.tpp
+      permission-message: "I'm sorry to say this.. but... you don't have permission ):"
